@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+body {
+  font-family: Roboto, serif;
+  color: #000;
+}
+
+.header-line {
+  background-color: #fff;
+}
+
+.logo {
+  color: #000;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.logo-color {
+  color: #2196f3;
+}
+
+.nav {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.list {
+  text-decoration: none;
+  color: #212121;
+}
+
+.list--active {
+  color: #2196f3;
+}
+
+.address {
+  list-style: none;
+}
+
+.address__item__list {
+  text-decoration: none;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
+.address__item__list--active {
+  color: #2196f3;
+}
+
+.start_page {
+  background-color: #2f303a;
+}
+
+.main__text {
+  text-align: center;
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.main__button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: 0;
+
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+}
+
+.characteristics {
+  background-color: #fff;
+}
+
+.characteristics__list {
+  list-style: none;
+}
+
+.characteristics__list__main {
+  color: #212121;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.characteristics__list__text {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.Striving {
+  background-color: #fff;
+}
+.Striving__text {
+  text-align: center;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.Striving__list {
+  list-style: none;
+}
+
+.Workers {
+  background-color: #f5f4fa;
+}
+
+.Workers__main {
+  color: #212121;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.Workers__list {
+  list-style: none;
+}
+
+.Workers__name {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.48px;
+}
+
+.Workers__work {
+  color: #757575;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+}
+
+.Footer__adress {
+  background-color: #2f303a;
+}
+
+.Footer__city {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.42px;
+}
+.Footer__mail__phone {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.42px;
+}
