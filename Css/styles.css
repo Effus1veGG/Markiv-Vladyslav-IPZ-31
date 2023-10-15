@@ -5,6 +5,8 @@ body {
   color: #000;
 }
 
+/* Header */
+
 .header-line {
   background-color: #fff;
 }
@@ -32,9 +34,10 @@ body {
 .list {
   text-decoration: none;
   color: #212121;
+  transition: 0.1s;
 }
 
-.list--active {
+.list:hover {
   color: #2196f3;
 }
 
@@ -48,14 +51,18 @@ body {
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
+  transition: 0.1s;
 }
 
-.address__item__list--active {
+.address__item__list:hover {
   color: #2196f3;
 }
 
+/* Main */
+
 .start_page {
   background-color: #2f303a;
+  text-align: center;
 }
 
 .main__text {
@@ -81,6 +88,13 @@ body {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
+
+  transition: 0.1s;
+}
+
+.main__button:hover {
+  background-color: #188ce8;
+  width: 216px;
 }
 
 .characteristics {
@@ -152,6 +166,8 @@ body {
   letter-spacing: 0.48px;
 }
 
+/* Footer */
+
 .Footer__adress {
   background-color: #2f303a;
 }
@@ -170,6 +186,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.42px;
+  font-style: normal;
 }
 
 .Footer__mail__phone {
@@ -177,4 +194,8 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.42px;
+  text-decoration: none;
+  font-style: normal;
 }
+
+/* Animation */
