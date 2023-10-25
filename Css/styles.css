@@ -75,6 +75,10 @@ ul {
   color: #2196f3;
 }
 
+.list__studio--active {
+  color: #2196f3;
+}
+
 .address {
   display: flex;
 }
@@ -118,13 +122,13 @@ ul {
 }
 
 .main__button {
-  width: 200px;
-  height: 50px;
+  padding: 10px 24px;
   border-radius: 4px;
   background: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: 0;
   margin-top: 30px;
+  cursor: pointer;
 
   color: #fff;
   font-size: 16px;
@@ -162,7 +166,6 @@ ul {
 .characteristics__list__text {
   color: #757575;
   font-size: 14px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
   margin: 10px 0 0 0;
@@ -265,7 +268,6 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.42px;
-  font-style: normal;
   margin: 28px 0 0px;
 }
 
@@ -275,7 +277,6 @@ ul {
   line-height: 16px;
   letter-spacing: 0.42px;
   text-decoration: none;
-  font-style: normal;
   margin: 12px 0;
 }
 
@@ -298,17 +299,15 @@ ul {
 }
 
 .button__all {
-  width: 67px;
-  height: 38px;
+  padding: 6px 22px;
   background-color: #f5f4fa;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
@@ -329,17 +328,15 @@ ul {
 }
 
 .button__web {
-  width: 125px;
-  height: 38px;
+  padding: 6px 22px;
   background-color: #f5f4fa;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
@@ -353,17 +350,15 @@ ul {
 }
 
 .button__applications {
-  width: 112px;
-  height: 38px;
+  padding: 6px 22px;
   background-color: #f5f4fa;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
@@ -376,17 +371,15 @@ ul {
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .button__design {
-  width: 103px;
-  height: 38px;
+  padding: 6px 22px;
   background-color: #f5f4fa;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
@@ -400,17 +393,15 @@ ul {
 }
 
 .button__marketing {
-  width: 130px;
-  height: 38px;
+  padding: 6px 22px;
   background-color: #f5f4fa;
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
 
   color: #212121;
   text-align: center;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 26px; /* 162.5% */
   letter-spacing: 0.48px;
@@ -445,9 +436,7 @@ ul {
 .content__title {
   text-decoration: none;
   color: #212121;
-  font-family: Roboto;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 36px; /* 200% */
   letter-spacing: 1.08px;
@@ -456,10 +445,7 @@ ul {
 
 .content__text {
   color: #757575;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.48px;
 }
