@@ -7,131 +7,145 @@
     <link rel="stylesheet" href="./Css/normalize.css" />
     <title>WebStudio</title>
   </head>
-  <body class="container">
+  <body>
     <header class="header">
-      <div class="header-line">
-        <a href="index.html" class="logo"
-          ><span class="logo-color">Web</span>Studio</a
-        >
-        <nav class="nav__header">
-          <ul class="nav">
-            <li class="nav__items">
-              <a href="#" class="list list--active">Студія</a>
+      <div class="container">
+        <div class="header-line">
+          <a href="index.html" class="logo"
+            ><span class="logo-color">Web</span>Studio</a
+          >
+          <nav class="nav__header">
+            <ul class="nav">
+              <li class="nav__items">
+                <a href="#" class="list list--active">Студія</a>
+              </li>
+              <li class="nav__items">
+                <a href="portfolio.html" class="list">Портфоліо</a>
+              </li>
+              <li class="nav__items"><a href="#" class="list">Контакти</a></li>
+            </ul>
+          </nav>
+          <ul class="address">
+            <li class="address-item">
+              <a
+                href="#"
+                class="address__item__list address__item__list--active"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="nav__items">
-              <a href="portfolio.html" class="list">Портфоліо</a>
+            <li class="address-item">
+              <a href="tel:+380961111111" class="address__item__list"
+                >+38 096 111 11 11</a
+              >
             </li>
-            <li class="nav__items"><a href="#" class="list">Контакти</a></li>
           </ul>
-        </nav>
-        <ul class="address">
-          <li class="address-item">
-            <a href="#" class="address__item__list address__item__list--active"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="address-item">
-            <a href="tel:+380961111111" class="address__item__list"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        </div>
       </div>
     </header>
 
     <main>
       <section class="start_page">
-        <h1 class="main__text">Ефективні рішення для <br />вашого бізнесу</h1>
-        <button type="button" class="main__button">Замовити послугу</button>
+        <div class="container">
+          <h1 class="main__text">Ефективні рішення для <br />вашого бізнесу</h1>
+          <button type="button" class="main__button">Замовити послугу</button>
+        </div>
       </section>
-      <section class="characteristics">
-        <ul class="characteristics__list">
-          <li class="characteristics__list__item">
-            <h3 class="characteristics__list__main">Увага до деталей</h3>
-            <p class="characteristics__list__text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
-            </p>
-          </li>
-          <li class="characteristics__list__item">
-            <h3 class="characteristics__list__main">Пунктуальність</h3>
-            <p class="characteristics__list__text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
-            </p>
-          </li>
-          <li class="characteristics__list__item">
-            <h3 class="characteristics__list__main">Планування</h3>
-            <p class="characteristics__list__text">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li class="characteristics__list__item">
-            <h3 class="characteristics__list__main">Сучасні технології</h3>
-            <p class="characteristics__list__text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="striving">
-        <h2 class="striving__text">Чим ми займаємося</h2>
-        <ul class="striving__list__element">
-          <li><img src="images/img.jpg" alt="pad" width="370" /></li>
-          <li>
-            <img src="images/img-2.jpg" alt="phone and desktop" width="370" />
-          </li>
-          <li><img src="images/img-3.jpg" alt="tab" width="370" /></li>
-        </ul>
-      </section>
-
-      <section class="workers">
-        <h2 class="workers__main">Наша команда</h2>
-        <div class="workers__list">
-          <ul class="workers__list__elements">
-            <li class="workers__list__items">
-              <img src="images/img-4.jpg" alt="Ігор Дем'яненко" width="270" />
-              <h3 class="workers__name">Ігор Дем'яненко</h3>
-              <p class="workers__work">Product Designer</p>
+      <div class="container">
+        <section class="characteristics">
+          <ul class="characteristics__list">
+            <li class="characteristics__list__item">
+              <h3 class="characteristics__list__main">Увага до деталей</h3>
+              <p class="characteristics__list__text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
             </li>
-            <li class="workers__list__items">
-              <img src="images/img-5.jpg" alt="Ольга Рєпіна" width="270" />
-              <h3 class="workers__name">Ольга Рєпіна</h3>
-              <p class="workers__work">Frontend Developer</p>
+            <li class="characteristics__list__item">
+              <h3 class="characteristics__list__main">Пунктуальність</h3>
+              <p class="characteristics__list__text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
             </li>
-            <li class="workers__list__items">
-              <img src="images/img-6.jpg" alt="Микола Тарасов" width="270" />
-              <h3 class="workers__name">Микола Тарасов</h3>
-              <p class="workers__work">Marketing</p>
+            <li class="characteristics__list__item">
+              <h3 class="characteristics__list__main">Планування</h3>
+              <p class="characteristics__list__text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
             </li>
-            <li class="workers__list__items">
-              <img src="images/img-7.jpg" alt="Михайло Єрмаков" width="270" />
-              <h3 class="workers__name">Михайло Єрмаков</h3>
-              <p class="workers__work">UI Designer</p>
+            <li class="characteristics__list__item">
+              <h3 class="characteristics__list__main">Сучасні технології</h3>
+              <p class="characteristics__list__text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
             </li>
           </ul>
+        </section>
+        <section class="striving">
+          <h2 class="striving__text">Чим ми займаємося</h2>
+          <ul class="striving__list__element">
+            <li><img src="images/img.jpg" alt="pad" width="370" /></li>
+            <li>
+              <img src="images/img-2.jpg" alt="phone and desktop" width="370" />
+            </li>
+            <li><img src="images/img-3.jpg" alt="tab" width="370" /></li>
+          </ul>
+        </section>
+      </div>
+
+      <section class="workers">
+        <div class="container">
+          <h2 class="workers__main">Наша команда</h2>
+          <div class="workers__list">
+            <ul class="workers__list__elements">
+              <li class="workers__list__items">
+                <img src="images/img-4.jpg" alt="Ігор Дем'яненко" width="270" />
+                <h3 class="workers__name">Ігор Дем'яненко</h3>
+                <p class="workers__work">Product Designer</p>
+              </li>
+              <li class="workers__list__items">
+                <img src="images/img-5.jpg" alt="Ольга Рєпіна" width="270" />
+                <h3 class="workers__name">Ольга Рєпіна</h3>
+                <p class="workers__work">Frontend Developer</p>
+              </li>
+              <li class="workers__list__items">
+                <img src="images/img-6.jpg" alt="Микола Тарасов" width="270" />
+                <h3 class="workers__name">Микола Тарасов</h3>
+                <p class="workers__work">Marketing</p>
+              </li>
+              <li class="workers__list__items">
+                <img src="images/img-7.jpg" alt="Михайло Єрмаков" width="270" />
+                <h3 class="workers__name">Михайло Єрмаков</h3>
+                <p class="workers__work">UI Designer</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="footer__adress">
-        <a href="index.html" class="footer__logo"
-          ><span class="logo-color">Web</span>Studio</a
-        >
+      <div class="container">
+        <div class="footer__adress">
+          <a href="index.html" class="footer__logo"
+            ><span class="logo-color">Web</span>Studio</a
+          >
 
-        <address>
-          <p class="footer__city">м. Київ, пр-т Лесі Українки, 26</p>
-          <div class="footer__mail">
-            <a href="#" class="footer__mail__phone">info@devstudio.com<br /></a>
-          </div>
-          <div class="footer__mail">
-            <a href="tel:+380961111111" class="footer__mail__phone"
-              >+38 096 111 11 11</a
-            >
-          </div>
-        </address>
+          <address>
+            <p class="footer__city">м. Київ, пр-т Лесі Українки, 26</p>
+            <div class="footer__mail">
+              <a href="#" class="footer__mail__phone"
+                >info@devstudio.com<br
+              /></a>
+            </div>
+            <div class="footer__mail">
+              <a href="tel:+380961111111" class="footer__mail__phone"
+                >+38 096 111 11 11</a
+              >
+            </div>
+          </address>
+        </div>
       </div>
     </footer>
   </body>
