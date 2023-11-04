@@ -3,6 +3,8 @@
 body {
   font-family: Roboto, serif;
   color: #000;
+  font-style: normal;
+  font-weight: 400;
 }
 
 h1,
@@ -57,9 +59,9 @@ ul {
   gap: 50px;
 }
 
-.nav__header {
+/* .nav__header {
   margin-right: 384px;
-}
+} */
 
 .list {
   text-decoration: none;
@@ -119,7 +121,7 @@ ul {
   color: #fff;
   font-size: 44px;
   font-weight: 900;
-  line-height: 60px;
+  line-height: 136.364%;
   letter-spacing: 2.64px;
   text-transform: uppercase;
 }
@@ -136,7 +138,7 @@ ul {
   color: #fff;
   font-size: 16px;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 187.5%;
   letter-spacing: 0.96px;
 
   transition: 0.1s;
@@ -144,7 +146,6 @@ ul {
 
 .main__button:hover {
   background-color: #188ce8;
-  width: 216px;
 }
 
 /* Characteristic */
@@ -169,7 +170,7 @@ ul {
 .characteristics__list__text {
   color: #757575;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 171.429%;
   letter-spacing: 0.42px;
   margin: 10px 0 0 0;
 }
@@ -263,7 +264,7 @@ ul {
 .footer__city {
   color: #fff;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 114.286%;
   letter-spacing: 0.42px;
   margin: 28px 0 0px;
 }
@@ -271,7 +272,7 @@ ul {
 .footer__mail__phone {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
-  line-height: 16px;
+  line-height: 114.286%;
   letter-spacing: 0.42px;
   text-decoration: none;
   margin: 12px 0;
@@ -305,7 +306,7 @@ ul {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 162.5%;
   letter-spacing: 0.48px;
 }
 
@@ -334,7 +335,7 @@ ul {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 162.5%;
   letter-spacing: 0.48px;
 }
 
@@ -356,7 +357,7 @@ ul {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 162.5%;
   letter-spacing: 0.48px;
 }
 
@@ -377,7 +378,7 @@ ul {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 162.5%;
   letter-spacing: 0.48px;
 }
 
@@ -399,7 +400,7 @@ ul {
   text-align: center;
   font-size: 16px;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 162.5%;
   letter-spacing: 0.48px;
 }
 
@@ -433,7 +434,7 @@ ul {
   color: #212121;
   font-size: 18px;
   font-weight: 700;
-  line-height: 36px; /* 200% */
+  line-height: 200%;
   letter-spacing: 1.08px;
   margin: 0px 0px 4px 0px;
 }
@@ -441,6 +442,6 @@ ul {
 .content__text {
   color: #757575;
   font-size: 16px;
-  line-height: 30px; /* 187.5% */
+  line-height: 187.5%;
   letter-spacing: 0.48px;
 }
