@@ -22,15 +22,13 @@ ul {
 
 /* Header */
 .header {
-  display: flex;
-  justify-content: center;
   border-bottom: #ececec 1px solid;
 }
 
 .header-line {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 
   background-color: #fff;
   height: 80px;
@@ -52,16 +50,17 @@ ul {
 
 .nav {
   display: flex;
-  list-style: none;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
   gap: 50px;
+  align-items: center;
 }
 
-/* .nav__header {
-  margin-right: 384px;
-} */
+.nav__header {
+  display: flex;
+  flex-grow: 1;
+}
 
 .list {
   text-decoration: none;
