@@ -7,11 +7,12 @@
   --color-white: #fff;
   --color-text-grey: #757575;
   --color-milk-white: #f5f4fa;
+  --color-black: #000;
 }
 
 body {
   font-family: Roboto, serif;
-  color: #000;
+  color: var(--color-black);
   font-style: normal;
   font-weight: 400;
 }
@@ -44,7 +45,7 @@ ul {
 }
 
 .logo {
-  color: #000;
+  color: var(--color-black);
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
