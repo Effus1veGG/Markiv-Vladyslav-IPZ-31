@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 
+:root {
+  --color-active-blue: #2196f3;
+  --color-basic-text-black: #212121;
+  --color-background-gray: #2f303a;
+  --color-white: #fff;
+  --color-text-grey: #757575;
+  --color-milk-white: #f5f4fa;
+}
+
 body {
   font-family: Roboto, serif;
   color: #000;
@@ -30,7 +39,7 @@ ul {
   align-items: center;
   /* justify-content: space-between; */
 
-  background-color: #fff;
+  background-color: var(--color-white);
   height: 80px;
 }
 
@@ -45,7 +54,7 @@ ul {
 }
 
 .logo-color {
-  color: #2196f3;
+  color: var(--color-active-blue);
 }
 
 .nav {
@@ -64,20 +73,20 @@ ul {
 
 .list {
   text-decoration: none;
-  color: #212121;
+  color: var(--color-basic-text-black);
   transition: 0.1s;
 }
 
 .list:hover {
-  color: #2196f3;
+  color: var(--color-active-blue);
 }
 
 .list__portfolio--active {
-  color: #2196f3;
+  color: var(--color-active-blue);
 }
 
 .list__studio--active {
-  color: #2196f3;
+  color: var(--color-active-blue);
 }
 
 .address {
@@ -87,7 +96,7 @@ ul {
 
 .address__item__list {
   text-decoration: none;
-  color: #757575;
+  color: var(--color-text-grey);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -95,7 +104,7 @@ ul {
 }
 
 .address__item__list:hover {
-  color: #2196f3;
+  color: var(--color-active-blue);
 }
 
 /* Main */
@@ -109,15 +118,19 @@ ul {
   padding: 94px 0;
 }
 
+.section.up {
+  padding-bottom: 0;
+}
+
 .start_page {
-  background-color: #2f303a;
+  background-color: var(--color-background-gray);
   text-align: center;
   padding: 200px 0;
   width: 100%;
 }
 
 .main__text {
-  color: #fff;
+  color: var(--color-white);
   font-size: 44px;
   font-weight: 900;
   line-height: 136.364%;
@@ -128,13 +141,13 @@ ul {
 .main__button {
   padding: 10px 24px;
   border-radius: 4px;
-  background: #2196f3;
+  background: var(--color-active-blue);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: 0;
   margin-top: 30px;
   cursor: pointer;
 
-  color: #fff;
+  color: var(--color-white);
   font-size: 16px;
   font-weight: 700;
   line-height: 187.5%;
@@ -159,7 +172,7 @@ ul {
 }
 
 .characteristics__list__main {
-  color: #212121;
+  color: var(--color-basic-text-black);
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -167,7 +180,7 @@ ul {
 }
 
 .characteristics__list__text {
-  color: #757575;
+  color: var(--color-text-grey);
   font-size: 14px;
   line-height: 171.429%;
   letter-spacing: 0.42px;
@@ -177,16 +190,16 @@ ul {
 /* Striving */
 
 .striving {
-  background-color: #fff;
+  background-color: var(--color-white);
 }
 
 .striving__text {
   text-align: center;
-  color: #212121;
+  color: var(--color-basic-text-black);
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  margin: 94px 0 50px;
+  margin: 0 0 50px;
 }
 
 .striving__list__element {
@@ -198,11 +211,11 @@ ul {
 /* Workers */
 
 .workers {
-  background-color: #f5f4fa;
+  background-color: var(--color-milk-white);
 }
 
 .workers__main {
-  color: #212121;
+  color: var(--color-basic-text-black);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -220,14 +233,14 @@ ul {
   width: 270px;
   padding-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
-  background: #fff;
+  background: var(--color-white);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .workers__name {
   text-align: center;
-  color: #212121;
+  color: var(--color-basic-text-black);
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.48px;
@@ -236,7 +249,7 @@ ul {
 
 .workers__work {
   text-align: center;
-  color: #757575;
+  color: var(--color-text-grey);
   font-size: 16px;
   letter-spacing: 0.48px;
 }
@@ -244,7 +257,7 @@ ul {
 /* Footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--color-background-gray);
 }
 
 .footer__adress {
@@ -252,7 +265,7 @@ ul {
 }
 
 .footer__logo {
-  color: #fff;
+  color: var(--color-white);
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -261,11 +274,12 @@ ul {
 }
 
 .footer__city {
-  color: #fff;
+  color: var(--color-white);
   font-size: 14px;
   line-height: 114.286%;
   letter-spacing: 0.42px;
   margin: 28px 0 0px;
+  font-style: normal;
 }
 
 .footer__mail__phone {
@@ -275,10 +289,12 @@ ul {
   letter-spacing: 0.42px;
   text-decoration: none;
   margin: 12px 0;
+  font-style: normal;
 }
 
 .footer__mail {
   margin-top: 12px;
+  font-style: normal;
 }
 
 /* Portfolio page */
@@ -296,12 +312,12 @@ ul {
 
 .button__all {
   padding: 6px 22px;
-  background-color: #f5f4fa;
+  background-color: var(--color-milk-white);
   border: 0;
   border-radius: 4px;
   cursor: pointer;
 
-  color: #212121;
+  color: var(--color-basic-text-black);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -310,27 +326,27 @@ ul {
 }
 
 .button__all--active {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button__all:hover {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button__web {
   padding: 6px 22px;
-  background-color: #f5f4fa;
+  background-color: var(--color-milk-white);
   border: 0;
   border-radius: 4px;
   cursor: pointer;
 
-  color: #212121;
+  color: var(--color-basic-text);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -339,20 +355,20 @@ ul {
 }
 
 .button__web:hover {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button__applications {
   padding: 6px 22px;
-  background-color: #f5f4fa;
+  background-color: var(--color-milk-white);
   border: 0;
   border-radius: 4px;
   cursor: pointer;
 
-  color: #212121;
+  color: var(--color-basic-text-black);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -361,19 +377,19 @@ ul {
 }
 
 .button__applications:hover {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 .button__design {
   padding: 6px 22px;
-  background-color: #f5f4fa;
+  background-color: var(--color-milk-white);
   border: 0;
   border-radius: 4px;
   cursor: pointer;
 
-  color: #212121;
+  color: var(--color-basic-text-black);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -382,20 +398,20 @@ ul {
 }
 
 .button__design:hover {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .button__marketing {
   padding: 6px 22px;
-  background-color: #f5f4fa;
+  background-color: var(--color-milk-white);
   border: 0;
   border-radius: 4px;
   cursor: pointer;
 
-  color: #212121;
+  color: var(--color-basic-text-black);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -404,8 +420,8 @@ ul {
 }
 
 .button__marketing:hover {
-  color: #fff;
-  background-color: #2196f3;
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
@@ -422,7 +438,7 @@ ul {
   width: 370px;
   height: 404px;
   border: 1px solid #eee;
-  background: #fff;
+  background: var(--color-white);
 }
 
 .content__split {
@@ -430,7 +446,7 @@ ul {
 }
 .content__title {
   text-decoration: none;
-  color: #212121;
+  color: var(--color-basic-text-black);
   font-size: 18px;
   font-weight: 700;
   line-height: 200%;
@@ -439,7 +455,7 @@ ul {
 }
 
 .content__text {
-  color: #757575;
+  color: var(--color-text-grey);
   font-size: 16px;
   line-height: 187.5%;
   letter-spacing: 0.48px;
