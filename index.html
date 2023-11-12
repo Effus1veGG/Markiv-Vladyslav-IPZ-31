@@ -32,12 +32,19 @@
               <a
                 href="#"
                 class="address__item__list address__item__list--active"
-                >info@devstudio.com</a
               >
+                <svg class="address__item__img" width="16" height="12">
+                  <use href="./images/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
             </li>
             <li class="address-item">
-              <a href="tel:+380961111111" class="address__item__list"
-                >+38 096 111 11 11</a
+              <a href="tel:+380961111111" class="address__item__list">
+                <svg class="address__item__img" width="10" height="16">
+                  <use href="./images/sprite.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
               >
             </li>
           </ul>
@@ -51,6 +58,7 @@
           <h1 class="main__text">Ефективні рішення для <br />вашого бізнесу</h1>
           <button type="button" class="main__button">Замовити послугу</button>
         </div>
+        <div class="overlay"></div>
       </section>
 
       <section class="characteristics">
@@ -58,6 +66,11 @@
           <div class="section up">
             <ul class="characteristics__list">
               <li class="characteristics__list__item">
+                <div class="characteristics__list_bg">
+                  <svg width="70" height="70">
+                    <use href="./images/sprite.svg#icon-antenna"></use>
+                  </svg>
+                </div>
                 <h3 class="characteristics__list__main">Увага до деталей</h3>
                 <p class="characteristics__list__text">
                   Ідейні міркування, і навіть початок повсякденної роботи з
@@ -65,6 +78,11 @@
                 </p>
               </li>
               <li class="characteristics__list__item">
+                <div class="characteristics__list_bg">
+                  <svg width="70" height="70">
+                    <use href="./images/sprite.svg#icon-clock"></use>
+                  </svg>
+                </div>
                 <h3 class="characteristics__list__main">Пунктуальність</h3>
                 <p class="characteristics__list__text">
                   Завдання організації, особливо рамки і місце навчання кадрів
@@ -72,6 +90,11 @@
                 </p>
               </li>
               <li class="characteristics__list__item">
+                <div class="characteristics__list_bg">
+                  <svg width="70" height="70">
+                    <use href="./images/sprite.svg#icon-diagram"></use>
+                  </svg>
+                </div>
                 <h3 class="characteristics__list__main">Планування</h3>
                 <p class="characteristics__list__text">
                   Так само консультація з широким активом значною мірою
@@ -79,6 +102,11 @@
                 </p>
               </li>
               <li class="characteristics__list__item">
+                <div class="characteristics__list_bg">
+                  <svg width="70" height="70">
+                    <use href="./images/sprite.svg#icon-astronaut"></use>
+                  </svg>
+                </div>
                 <h3 class="characteristics__list__main">Сучасні технології</h3>
                 <p class="characteristics__list__text">
                   Значимість цих проблем настільки очевидна, що реалізація
@@ -118,21 +146,161 @@
                 <img src="images/img-4.jpg" alt="Ігор Дем'яненко" width="270" />
                 <h3 class="workers__name">Ігор Дем'яненко</h3>
                 <p class="workers__work">Product Designer</p>
+                <div class="workers-social">
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </button>
+                </div>
               </li>
               <li class="workers__list__items">
                 <img src="images/img-5.jpg" alt="Ольга Рєпіна" width="270" />
                 <h3 class="workers__name">Ольга Рєпіна</h3>
                 <p class="workers__work">Frontend Developer</p>
+                <div class="workers-social">
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </button>
+                </div>
               </li>
               <li class="workers__list__items">
                 <img src="images/img-6.jpg" alt="Микола Тарасов" width="270" />
                 <h3 class="workers__name">Микола Тарасов</h3>
                 <p class="workers__work">Marketing</p>
+                <div class="workers-social">
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </button>
+                </div>
               </li>
               <li class="workers__list__items">
                 <img src="images/img-7.jpg" alt="Михайло Єрмаков" width="270" />
                 <h3 class="workers__name">Михайло Єрмаков</h3>
                 <p class="workers__work">UI Designer</p>
+                <div class="workers-social">
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-instagram"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-twitter"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-facebook"></use>
+                    </svg>
+                  </button>
+                  <button class="workers-social-btn">
+                    <svg class="workers-social-img" width="20" height="20">
+                      <use href="./images/sprite.svg#icon-linkedin"></use>
+                    </svg>
+                  </button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="regular customers">
+        <div class="section">
+          <div class="container">
+            <h2 class="customers-title">Постійні клієнти</h2>
+            <ul class="customers-list">
+              <li>
+                <a class="customers-items" href="#">
+                  <svg class="customers-items-icon" width="106" height="60">
+                    <use href="./images/sprite.svg#icon-Logo-Ya"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="customers-items" href="#">
+                  <svg class="customers-items-icon" width="106" height="60">
+                    <use href="./images/sprite.svg#icon-Logo-Company"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="customers-items" href="#">
+                  <svg class="customers-items-icon" width="106" height="60">
+                    <use href="./images/sprite.svg#icon-Logo-Company2"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="customers-items" href="#">
+                  <svg class="customers-items-icon" width="106" height="60">
+                    <use href="./images/sprite.svg#icon-Foster"></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a class="customers-items" href="#">
+                  <svg class="customers-items-icon" width="106" height="60">
+                    <use href="./images/sprite.svg#icon-Brand"></use>
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a class="customers-items" href="#">
+                  <svg class="customers-items-icon" cla width="106" height="60">
+                    <use href="./images/sprite.svg#icon-Company-Tag"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -142,24 +310,51 @@
 
     <footer class="footer">
       <div class="container">
-        <div class="footer__adress">
-          <a href="index.html" class="footer__logo"
-            ><span class="logo-color">Web</span>Studio</a
-          >
+        <div class="footer-group">
+          <div class="footer__adress">
+            <a href="index.html" class="footer__logo"
+              ><span class="logo-color">Web</span>Studio</a
+            >
 
-          <address>
-            <p class="footer__city">м. Київ, пр-т Лесі Українки, 26</p>
-            <div class="footer__mail">
-              <a href="#" class="footer__mail__phone"
-                >info@devstudio.com<br
-              /></a>
+            <address>
+              <p class="footer__city">м. Київ, пр-т Лесі Українки, 26</p>
+              <div class="footer__mail">
+                <a href="#" class="footer__mail__phone"
+                  >info@devstudio.com<br
+                /></a>
+              </div>
+              <div class="footer__mail">
+                <a href="tel:+380961111111" class="footer__mail__phone"
+                  >+38 096 111 11 11</a
+                >
+              </div>
+            </address>
+          </div>
+          <div class="social-footer">
+            <h3>Приєднуйтесь</h3>
+            <div class="social-footer-group">
+              <button class="social-footer-btn">
+                <svg class="social-footer-img" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-instagram"></use>
+                </svg>
+              </button>
+              <button class="social-footer-btn">
+                <svg class="social-footer-img" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-twitter"></use>
+                </svg>
+              </button>
+              <button class="social-footer-btn">
+                <svg class="social-footer-img" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-facebook"></use>
+                </svg>
+              </button>
+              <button class="social-footer-btn">
+                <svg class="social-footer-img" width="20" height="20">
+                  <use href="./images/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </button>
             </div>
-            <div class="footer__mail">
-              <a href="tel:+380961111111" class="footer__mail__phone"
-                >+38 096 111 11 11</a
-              >
-            </div>
-          </address>
+          </div>
         </div>
       </div>
     </footer>
