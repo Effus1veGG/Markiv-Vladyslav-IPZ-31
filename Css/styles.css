@@ -341,15 +341,11 @@ section.up {
   background-color: var(--color-active-blue);
 }
 
-<<<<<<< Updated upstream
-.workers-social-btn:hover .workers-social-img {
-=======
 .workers-social-link:focus {
   background-color: var(--color-active-blue);
 }
 
 .workers-social-link:hover .workers-social-img {
->>>>>>> Stashed changes
   fill: var(--color-white);
 }
 
@@ -660,13 +656,9 @@ section.up {
   gap: 30px;
 }
 
-<<<<<<< Updated upstream
 .small__section {
   width: 370px;
   height: 404px;
-=======
-.nav__content-item {
->>>>>>> Stashed changes
   border: 1px solid #eee;
   background: var(--color-white);
 }
