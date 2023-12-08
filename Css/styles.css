@@ -35,6 +35,14 @@ a {
   text-decoration: none;
 }
 
+section {
+  padding: 94px 0;
+}
+
+section.up {
+  padding-bottom: 0;
+}
+
 /* Header */
 .header {
   border-bottom: #ececec 1px solid;
@@ -87,6 +95,10 @@ a {
   color: var(--color-active-blue);
 }
 
+.list:focus {
+  color: var(--color-active-blue);
+}
+
 .list__portfolio--active {
   color: var(--color-active-blue);
 }
@@ -116,7 +128,15 @@ a {
   color: var(--color-active-blue);
 }
 
+.address__item__list:focus {
+  color: var(--color-active-blue);
+}
+
 .address__item__list:hover .address__item__img {
+  fill: var(--color-active-blue);
+}
+
+.address__item__list:focus .address__item__img {
   fill: var(--color-active-blue);
 }
 
@@ -130,14 +150,6 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
-}
-
-.section {
-  padding: 94px 0;
-}
-
-.section.up {
-  padding-bottom: 0;
 }
 
 .start_page {
@@ -198,6 +210,10 @@ a {
   background-color: #188ce8;
 }
 
+.main__button:focus {
+  background-color: #188ce8;
+}
+
 /* Characteristic */
 
 .characteristics__list {
@@ -206,7 +222,7 @@ a {
 }
 
 .characteristics__list__item {
-  width: 270px;
+  max-width: 270px;
 }
 
 .characteristics__list__main {
@@ -325,7 +341,19 @@ a {
   background-color: var(--color-active-blue);
 }
 
+<<<<<<< Updated upstream
 .workers-social-btn:hover .workers-social-img {
+=======
+.workers-social-link:focus {
+  background-color: var(--color-active-blue);
+}
+
+.workers-social-link:hover .workers-social-img {
+>>>>>>> Stashed changes
+  fill: var(--color-white);
+}
+
+.workers-social-link:focus .workers-social-img {
   fill: var(--color-white);
 }
 
@@ -351,7 +379,15 @@ a {
   border: 1px solid var(--color-active-blue);
 }
 
+.customers-items:focus {
+  border: 1px solid var(--color-active-blue);
+}
+
 .customers-items:hover .customers-items-icon {
+  fill: var(--color-active-blue);
+}
+
+.customers-items:focus .customers-items-icon {
   fill: var(--color-active-blue);
 }
 
@@ -425,6 +461,10 @@ a {
   background-color: var(--color-active-blue);
 }
 
+.social-footer-link:focus {
+  background-color: var(--color-active-blue);
+}
+
 .social-footer-img {
   fill: #fff;
 }
@@ -489,6 +529,13 @@ a {
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
+.button__all:focus {
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
 .button__web {
   padding: 6px 22px;
   background-color: var(--color-milk-white);
@@ -505,6 +552,13 @@ a {
 }
 
 .button__web:hover {
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button__web:focus {
   color: var(--color-white);
   background-color: var(--color-active-blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -532,6 +586,14 @@ a {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
+
+.button__applications:focus {
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
 .button__design {
   padding: 6px 22px;
   background-color: var(--color-milk-white);
@@ -548,6 +610,13 @@ a {
 }
 
 .button__design:hover {
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button__design:focus {
   color: var(--color-white);
   background-color: var(--color-active-blue);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -576,6 +645,13 @@ a {
     0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
+.button__marketing:focus {
+  color: var(--color-white);
+  background-color: var(--color-active-blue);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
 /* Portfolio Posters */
 .nav__content {
   display: flex;
@@ -584,14 +660,23 @@ a {
   gap: 30px;
 }
 
+<<<<<<< Updated upstream
 .small__section {
   width: 370px;
   height: 404px;
+=======
+.nav__content-item {
+>>>>>>> Stashed changes
   border: 1px solid #eee;
   background: var(--color-white);
 }
 
 .small__section:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+
+.nav__content-item:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
