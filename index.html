@@ -55,10 +55,15 @@
     <main>
       <section class="start_page">
         <div class="container">
-          <h1 class="main__text">Ефективні рішення для <br />вашого бізнесу</h1>
-          <button type="button" class="main__button">Замовити послугу</button>
+          <h1 class="main__text">Ефективні рішення для вашого бізнесу</h1>
+          <button
+            type="button"
+            class="main__button"
+            data-modal-open="#modal-window"
+          >
+            Замовити послугу
+          </button>
         </div>
-        <div class="overlay"></div>
       </section>
 
       <section class="characteristics up">
@@ -119,11 +124,18 @@
         <div class="container">
           <h2 class="striving__text">Чим ми займаємося</h2>
           <ul class="striving__list__element">
-            <li><img src="images/img.jpg" alt="pad" width="370" /></li>
+            <li>
+              <img src="images/img.jpg" alt="pad" width="370" />
+              <div class="striving__small-section">Десктопні додатки</div>
+            </li>
             <li>
               <img src="images/img-2.jpg" alt="phone and desktop" width="370" />
+              <div class="striving__small-section">Мобільні додатки</div>
             </li>
-            <li><img src="images/img-3.jpg" alt="tab" width="370" /></li>
+            <li>
+              <img src="images/img-3.jpg" alt="tab" width="370" />
+              <div class="striving__small-section">Дизайнерські рішення</div>
+            </li>
           </ul>
         </div>
       </section>
@@ -345,5 +357,16 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-window is__hidden" data-modal>
+      <div class="modal__content">
+        <button class="close__button" data-modal-close="#modal-window">
+          <svg class="icon" width="18" height="18">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
