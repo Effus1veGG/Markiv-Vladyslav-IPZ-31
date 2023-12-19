@@ -841,10 +841,11 @@ section.up {
 
 .modal__content {
   z-index: 3;
-  width: 528px;
-  height: 581px;
+  width: 100%;
+  max-width: 528px;
+  max-height: 581px;
   border-radius: 4px;
-  background: #fff;
+  background: var(--color-white);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   transform: scale(0.8);
@@ -887,6 +888,7 @@ section.up {
 .modal__input {
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
+  max-width: 480px;
   width: 100%;
   height: 40px;
   padding-left: 42px;
@@ -898,7 +900,7 @@ section.up {
 
 .modal__coment {
   resize: none;
-  width: 100%;
+  width: 93%;
   height: 120px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -931,7 +933,7 @@ section.up {
   text-decoration: underline;
 }
 
-.modal_check_active {
+.modal__check__active {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -949,7 +951,7 @@ section.up {
   border-radius: 2px;
 }
 
-.modal__check:checked + .custom__check > .modal_check_active {
+.modal__check:checked + .custom__check > .modal__check__active {
   display: block;
 }
 
@@ -974,6 +976,8 @@ section.up {
 
 .close__button {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 8px;
   right: 8px;
