@@ -1,0 +1,30 @@
+body {
+  font-family: Roboto, serif;
+  color: var(--color-black);
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding: 94px 0;
+  &.up {
+    padding-bottom: 0;
+  }
+}

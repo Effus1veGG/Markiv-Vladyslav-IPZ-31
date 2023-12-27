@@ -1,0 +1,31 @@
+.button__social {
+  padding: 6px 22px;
+  background-color: var(--color-milk-white);
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+
+  color: var(--color-basic-text-black);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162.5%;
+  letter-spacing: 0.48px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &--active {
+    color: var(--color-white);
+    background-color: var(--color-active-blue);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+  &:hover,
+  &:focus {
+    color: var(--color-white);
+    background-color: var(--color-active-blue);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  }
+}

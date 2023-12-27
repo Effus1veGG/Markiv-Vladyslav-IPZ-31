@@ -1,0 +1,139 @@
+.modal {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &__content {
+    z-index: 3;
+    width: 100%;
+    max-width: 528px;
+    max-height: 581px;
+    border-radius: 4px;
+    background: var(--color-white);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(0.8);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 40px;
+  }
+
+  &__header {
+    color: var(--color-basic-text-black);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    margin-bottom: 12px;
+  }
+
+  &__icon {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+  }
+
+  &__coment {
+    resize: none;
+    width: 93%;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    padding: 12px 16px;
+
+    color: var(--color-basic-text-black);
+    font-size: 12px;
+    letter-spacing: 0.12px;
+
+    &::placeholder {
+      color: rgba(117, 117, 117, 0.5);
+    }
+
+    &:focus {
+      border-color: var(--color-active-blue);
+    }
+  }
+
+  &__agree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.38px;
+
+    &-text {
+      color: var(--color-text-grey);
+      line-height: 171.429%;
+      letter-spacing: 0.42px;
+    }
+  }
+
+  &__contract {
+    color: var(--color-active-blue);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  &__check__active {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 15px;
+    display: none;
+  }
+
+  &__custom__check {
+    position: relative;
+    border: 2px solid var(--color-basic-text-black);
+    width: 16px;
+    height: 15px;
+    border-radius: 2px;
+  }
+
+  &__check:checked + &__custom__check > &__check__active {
+    display: block;
+  }
+
+  &__check:checked + &__custom__check {
+    border-color: #fff;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__window:not(.is__hidden) &__content {
+    transform: scale(1);
+  }
+
+  &__button {
+    border-radius: 4px;
+    background: #2196f3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 187.5%;
+    letter-spacing: 0.96px;
+    padding: 10px 52px;
+    border: 0;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+
+  &__group {
+    text-align: center;
+  }
+}
